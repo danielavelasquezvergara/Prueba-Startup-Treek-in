@@ -9975,11 +9975,6 @@ body {
   text-align: center;
 }
 
-.row {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
 .col-xs-12 {
   grid-column: span 12;
 }
