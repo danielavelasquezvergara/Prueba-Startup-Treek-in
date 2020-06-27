@@ -1,10 +1,33 @@
-#caracteristicas h1 {
+#caracteristicas {
+    h1 {
     text-align: center;
     padding: 30px;
+    }
+    .caracteristicas__componentes {
+        width: 100%;
+        margin: auto;
+    }
 
+    img {
+        padding: 10px;
+    }
+    .caracteristicas__progeso h2 {
+        padding:  20px 10px;
+        text-align: center;
+    }
+    .caracteristicas__progeso p {
+        padding: 0px 10px;
+        text-align: justify;
+    }
 }
-.caracteristicas__componentes {
-    width: 100%;
-    margin: auto;
+//inicio media-queries
+@media (min-width: 576px){
+    .caracteristicas {
+        width: 80%;
+        padding: 20px;
+        margin: auto;
+    }
+    #caracteristicas div {
+        text-align: left;
+    }
 }
-

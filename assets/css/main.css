@@ -9941,19 +9941,38 @@ body {
   text-align: center;
   padding: 30px;
 }
-
-.caracteristicas__componentes {
+#caracteristicas .caracteristicas__componentes {
   width: 100%;
   margin: auto;
 }
+#caracteristicas img {
+  padding: 10px;
+}
+#caracteristicas .caracteristicas__progeso h2 {
+  padding: 20px 10px;
+  text-align: center;
+}
+#caracteristicas .caracteristicas__progeso p {
+  padding: 0px 10px;
+  text-align: justify;
+}
 
-#precios {
-  background-image: url(../img/bg-price.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+@media (min-width: 576px) {
+  .caracteristicas {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+  }
+
+  #caracteristicas div {
+    text-align: left;
+  }
+}
+#precios img {
   width: 100%;
-  height: 1200px;
+}
+#precios h1 {
+  text-align: center;
 }
 
 .row {
