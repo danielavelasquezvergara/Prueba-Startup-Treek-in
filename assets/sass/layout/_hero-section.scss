@@ -1,0 +1,23 @@
+#hero-section {
+    
+    div {
+       position: relative; 
+       width: 100%;
+       padding:30px 30px;
+       text-align: justify;
+       
+
+    }
+    img {
+        width: 100%;
+    }
+}
+//inicio media-queries para desktop
+@media (min-width: 768px) {
+    #hero-section div {
+        position: absolute;
+        top: 65px;
+        padding: 80px 100px;
+        width: 500px;
+    }
+}

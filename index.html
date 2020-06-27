@@ -11,8 +11,8 @@
 </head>
 <body>
     <!--navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="assets/img/Logo.svg" alt="logo-página"> </a>
+    <nav class="navbar navbar-expand-lg navbar-light #navigation">
+        <a class="navbar-brand navigation__logo" href="#"><img src="assets/img/Logo.svg" alt="logo-página"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,13 +31,64 @@
           <form class="form-inline my-2 my-lg-0">
         
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Iniciar sesión</a> 
-               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Registrate</button> 
+               <button class="boton__registro my-2 my-sm-0" type="submit">Registrate</button> 
             
           </form>
         </div>
-      </nav>
+    </nav>
+    <!--hero-section-->
+    
+    <section id="hero-section">
+        
+        <div class="hero-section___descripcion">
+            <h1>Haz Trekking sin parar</h1>
+            <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</p>
+        </div>
+        <img src="assets/img/bg-hero.svg" alt="imagen hero-section">
+    </section>
 
-
+    <!--caracteristicas-->
+    <section id="caracteristicas">
+        <h1>Características</h1>
+        <div class="caracteristicas__componentes row">
+            <div class="caracteristicas__componentes-graph  col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <img src="assets/img/bar-graph.svg" alt="" srcset="">
+            </div>
+            <div class="caracteristicas__progeso col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <h2>Estadísticas de tu progreso</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, delectus neque? Omnis sapiente voluptatum ipsam corrupti nulla, soluta molestias voluptates enim eius delectus? Illo alias earum molestias esse totam vero.</p>
+                
+            </div>
+        </div>
+    </section>
+    <!--precios-->
+    <section id="precios">
+        <h1>Precios</h1>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+    </section>
+    <footer>
+        <a href="#">Legal</a>
+        <a href="#">Cookies</a>
+        <a href="#">Sobre anuncios</a>
+        <p>© 2018 Trekk-in SPA</p>
+    </footer>
 
    <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
