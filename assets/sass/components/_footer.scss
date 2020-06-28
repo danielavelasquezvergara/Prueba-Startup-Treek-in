@@ -1,0 +1,21 @@
+#footer-section{
+    color:$white;
+    background: $raising-black;
+    font-size: $x-small;
+    padding: 20px;
+    
+}
+    a{
+        color:$white;
+    }
+
+.footer__primera-linea {
+    display: flex;
+    justify-content: space-between;
+      
+}
+#footer-section p {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}

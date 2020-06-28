@@ -9928,6 +9928,14 @@ body {
 #hero-section img {
   width: 100%;
 }
+#hero-section h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#hero-section p {
+  font-size: 14px;
+  font-weight: 400;
+}
 
 @media (min-width: 768px) {
   #hero-section div {
@@ -9940,6 +9948,8 @@ body {
 #caracteristicas h1 {
   text-align: center;
   padding: 30px;
+  font-size: 30px;
+  font-weight: 700;
 }
 #caracteristicas .caracteristicas__componentes {
   width: 100%;
@@ -9951,10 +9961,14 @@ body {
 #caracteristicas .caracteristicas__progeso h2 {
   padding: 20px 10px;
   text-align: center;
+  font-weight: 700;
+  font-size: 20px;
 }
 #caracteristicas .caracteristicas__progeso p {
   padding: 0px 10px;
   text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 @media (min-width: 576px) {
@@ -9968,13 +9982,69 @@ body {
     text-align: left;
   }
 }
-#precios img {
-  width: 100%;
-}
-#precios h1 {
-  text-align: center;
+#precios {
+  position: relative;
+  overflow: hidden;
 }
 
+#precios img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#precios h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#precios > div {
+  margin: auto;
+  padding: 20px;
+}
+
+.precios__fondo {
+  background: #333745;
+}
+
+.card__1 {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  padding: 20px;
+}
+
+.card__2 {
+  height: 400px;
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid;
+}
+
+#precios h6 {
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+}
+
+.precios__hr {
+  margin-top: 112px;
+}
+
+#precios li {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  #precios h1 {
+    margin-top: 250px;
+  }
+}
 .col-xs-12 {
   grid-column: span 12;
 }
@@ -10219,6 +10289,18 @@ body {
     grid-column: span 1;
   }
 }
+.boton__precios {
+  background-color: #2ab7ca;
+  width: 100%;
+  border-color: #2ab7ca;
+  padding: 3px;
+  font-weight: 700;
+}
+
+#precios a {
+  color: #fff;
+}
+
 .navbar {
   padding: 20px 25px;
 }
@@ -10249,6 +10331,27 @@ body {
   .navbar {
     padding: 20px 100px;
   }
+}
+#footer-section {
+  color: #fff;
+  background: #221d23;
+  font-size: 12px;
+  padding: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+.footer__primera-linea {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-section p {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */

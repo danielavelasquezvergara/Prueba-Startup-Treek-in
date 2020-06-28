@@ -11,6 +11,14 @@
     img {
         width: 100%;
     }
+    h1 {
+        font-weight: 700;
+        font-size: $xx-large;
+    }
+    p {
+        font-size: $small;
+        font-weight: 400;
+    }
 }
 //inicio media-queries para desktop
 @media (min-width: 768px) {

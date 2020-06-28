@@ -2,6 +2,8 @@
     h1 {
     text-align: center;
     padding: 30px;
+    font-size: $x-large;
+    font-weight: 700;
     }
     .caracteristicas__componentes {
         width: 100%;
@@ -14,10 +16,14 @@
     .caracteristicas__progeso h2 {
         padding:  20px 10px;
         text-align: center;
+        font-weight: 700;
+        font-size: $large;
     }
     .caracteristicas__progeso p {
         padding: 0px 10px;
         text-align: justify;
+        font-size: $small;
+        font-weight: 400;
     }
 }
 //inicio media-queries
