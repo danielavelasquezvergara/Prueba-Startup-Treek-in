@@ -10354,4 +10354,16 @@ a {
   margin-top: 15px;
 }
 
+@media (min-width: 768px) {
+  #footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+  }
+
+  #footer-section a {
+    margin-right: 50px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
