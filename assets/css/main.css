@@ -9909,6 +9909,25 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.caracteristicas__componentes-grafico {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -10319,8 +10338,13 @@ hr {
   padding: 7px;
   font-size: 14px;
 }
-.boton__registro :hover {
-  color: #77d1dd;
+
+.boton__registro:hover {
+  background-color: #77d1dd;
+}
+
+.boton__registro:focus {
+  background-color: #c7c8cc;
 }
 
 .navbar-toggler {

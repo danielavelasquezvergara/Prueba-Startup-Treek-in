@@ -15,9 +15,17 @@
     padding: 7px;
     font-size: $small;
 
-    :hover{
-        color: $middle-blue;
-    }
+
+}
+
+.boton__registro:hover {
+        background-color: $middle-blue;
+     
+}
+
+.boton__registro:focus {
+    background-color: $lavender-gray;
+ 
 }
 .navbar-toggler {
     border: 0;
